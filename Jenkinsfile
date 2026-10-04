@@ -1,6 +1,6 @@
 @Library('Shared') _
 pipeline {
-    agent {label 'Node'}
+    agent { label "Jenkins-Agent-Node-01" }
     
     environment{
         SONAR_HOME = tool "Sonar"
